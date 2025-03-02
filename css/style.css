@@ -1,0 +1,34 @@
+/* Grundlegende Stile */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+input#search {
+  width: 80%;
+  padding: 10px;
+  margin: 10px auto;
+  display: block;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#results {
+  padding: 20px;
+}
+
+#details {
+  padding: 20px;
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+}

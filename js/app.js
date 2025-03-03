@@ -6,10 +6,9 @@ const nutrientsData = [
     description: "Vitamin C ist wichtig für das Immunsystem.",
     deficiency: "Schwäche, Immunschwäche",
     excess: "Magenbeschwerden, Übelkeit",
-    interaction: "Vitamin C fördert die Aufnahme von Eisen.",
+    interaction: "Fördert die Aufnahme von Eisen.",
     supplementation: "Kann in speziellen Fällen hilfreich sein.",
-    recommendedDailyAmount: "75-90 mg",
-    topFoods: ["Orangen", "Paprika", "Kiwi"]
+    recommendedDailyAmount: "75-90 mg"
   },
   {
     name: "Eiweiß",
@@ -17,11 +16,10 @@ const nutrientsData = [
     description: "Eiweiß ist wichtig für den Muskelaufbau.",
     deficiency: "Muskelschwund, Müdigkeit",
     excess: "Nierenprobleme, Dehydration",
-    interaction: "Eiweiß fördert die Aufnahme von Eisen.",
+    interaction: "Fördert die Aufnahme von Eisen.",
     supplementation: "Für Sportler empfehlenswert.",
     recommendedDailyAmount: "2g/kg Körpergewicht",
-    caloriesPerGram: 4,
-    topFoods: ["Huhn", "Lachs", "Eier"]
+    caloriesPerGram: 4
   }
 ];
 
@@ -38,7 +36,7 @@ document.getElementById('search').addEventListener('input', function() {
 // Ergebnisse anzeigen
 function displayResults(results) {
   const resultsDiv = document.getElementById('results');
-  resultsDiv.innerHTML = "";  // Ergebnisse löschen, bevor neue angezeigt werden
+  resultsDiv.innerHTML = "";
 
   if (results.length === 0) {
     resultsDiv.innerHTML = "<p>Kein Nährstoff gefunden.</p>";
@@ -59,12 +57,12 @@ function displayResults(results) {
 // Details eines Nährstoffs anzeigen
 function displayNutrientDetails(nutrient) {
   const detailsDiv = document.getElementById('details');
+  detailsDiv.style.display = "block";
   detailsDiv.innerHTML = `
     <h2>${nutrient.name}</h2>
     <p><strong>Typ:</strong> ${nutrient.type}</p>
     <p><strong>Beschreibung:</strong> ${nutrient.description}</p>
     <p><strong>Empfohlene tägliche Menge:</strong> ${nutrient.recommendedDailyAmount}</p>
-    <p><strong>Top 7 Lebensmittel:</strong> ${nutrient.topFoods.join(', ')}</p>
     <p><strong>Was passiert bei Mangel:</strong> ${nutrient.deficiency}</p>
     <p><strong>Was passiert bei Übermaß:</strong> ${nutrient.excess}</p>
     <p><strong>Interaktionen:</strong> ${nutrient.interaction}</p>

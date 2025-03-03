@@ -1,11 +1,11 @@
 {
-  "name": "Ernährungs App",
-  "short_name": "Ernährungs",
+  "name": "Nutrition",
+  "short_name": "Nutrition",
   "description": "Finde alle Nährstoffe und deren Informationen.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#4CAF50",
+  "background_color": "#1E1E1E",
+  "theme_color": "#2A2A2A",
   "icons": [
     {
       "src": "icons/icon-192x192.png",

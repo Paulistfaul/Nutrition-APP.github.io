@@ -16,3 +16,1197 @@
         "supplementation": "Bei Kalziummangel empfohlen"
     }
 ]
+{
+  "name": "Magnesium",
+  "type": "Mineralstoff",
+  "calories_per_gram": "",
+  "daily_intake": "300-400 mg",
+  "functions": [
+    "Wichtig für Muskelfunktion und Nerven",
+    "Unterstützt den Energiestoffwechsel",
+    "Reguliert den Blutdruck"
+  ],
+  "deficiency_effects": [
+    "Muskelschwäche und Krämpfe",
+    "Erhöhte Reizbarkeit",
+    "Schlafprobleme"
+  ],
+  "overconsumption_effects": [
+    "Durchfall",
+    "Niedriger Blutdruck"
+  ],
+  "interactions": [
+    "Verbessert die Aufnahme von Vitamin D",
+    "Wird durch zu viel Kalzium in der Aufnahme gehemmt"
+  ],
+  "supplementation": "Ja, wenn die Ernährung zu wenig Magnesium enthält oder man viel Sport macht",
+  "food_sources": [
+    "Nüsse",
+    "Samen",
+    "Vollkornprodukte",
+    "Dunkle Schokolade",
+    "Spinat"
+  ]
+}
+{
+  "name": "Natrium",
+  "type": "Mineralstoff",
+  "calories_per_gram": "",
+  "daily_intake": "1500-2300 mg",
+  "functions": [
+    "Wichtig für den Wasserhaushalt und den osmotischen Druck",
+    "Reguliert den Blutdruck",
+    "Unterstützt die Nerven- und Muskelfunktion"
+  ],
+  "deficiency_effects": [
+    "Krämpfe",
+    "Schwäche",
+    "Verwirrung"
+  ],
+  "overconsumption_effects": [
+    "Hoher Blutdruck",
+    "Wasseransammlungen",
+    "Nierenprobleme"
+  ],
+  "interactions": [
+    "Verringert die Wirkung von Kalium",
+    "Kann durch zu viel Kalzium und Magnesium im Körper beeinflusst werden"
+  ],
+  "supplementation": "In der Regel nicht notwendig, da Natrium in vielen Lebensmitteln enthalten ist. Vorsicht bei hohem Salzkonsum.",
+  "food_sources": [
+    "Salz",
+    "Fertiggerichte",
+    "Wurstwaren",
+    "Käse",
+    "Suppen"
+  ]
+}
+{
+  "name": "Phosphor",
+  "type": "Mineralstoff",
+  "calories_per_gram": "",
+  "daily_intake": "700 mg",
+  "functions": [
+    "Wichtig für den Aufbau von Knochen und Zähnen",
+    "Beteiligt an der Energieproduktion (ATP)",
+    "Unterstützt die Zellfunktion und das Wachstum"
+  ],
+  "deficiency_effects": [
+    "Schwäche und Müdigkeit",
+    "Knochenschmerzen und -schwäche",
+    "Appetitlosigkeit"
+  ],
+  "overconsumption_effects": [
+    "Kalziumverlust aus den Knochen",
+    "Erhöhtes Risiko für Nierensteine"
+  ],
+  "interactions": [
+    "Beeinflusst die Aufnahme von Kalzium",
+    "Zu viel Phosphor kann den Kalziumspiegel im Blut senken"
+  ],
+  "supplementation": "In der Regel nicht notwendig, da Phosphor in vielen Lebensmitteln vorhanden ist.",
+  "food_sources": [
+    "Fleisch",
+    "Fisch",
+    "Milchprodukte",
+    "Nüsse",
+    "Vollkornprodukte"
+  ]
+}
+{
+  "name": "Chlorid",
+  "type": "Mineralstoff",
+  "calories_per_gram": "",
+  "daily_intake": "2300 mg",
+  "functions": [
+    "Wichtig für den Wasserhaushalt und den osmotischen Druck",
+    "Reguliert den pH-Wert des Körpers",
+    "Unterstützt die Verdauung (als Bestandteil von Magensäure)"
+  ],
+  "deficiency_effects": [
+    "Dehydration",
+    "Krämpfe",
+    "Schwäche",
+    "Atembeschwerden"
+  ],
+  "overconsumption_effects": [
+    "Erhöhter Blutdruck",
+    "Wasseransammlungen",
+    "Nierenprobleme"
+  ],
+  "interactions": [
+    "Kann mit Kalium interagieren und dessen Ausscheidung fördern",
+    "Zu viel Chlorid kann den Kalziumhaushalt beeinträchtigen"
+  ],
+  "supplementation": "In der Regel nicht notwendig, da Chlorid in Salz und vielen Lebensmitteln enthalten ist.",
+  "food_sources": [
+    "Salz",
+    "Fertiggerichte",
+    "Wurstwaren",
+    "Käse",
+    "Tomaten"
+  ]
+}
+{
+  "name": "Schwefel",
+  "type": "Mineralstoff",
+  "calories_per_gram": "",
+  "daily_intake": "Keine spezifische Empfehlung, aber ausreichend in der Ernährung enthalten",
+  "functions": [
+    "Beteiligt am Aufbau von Aminosäuren wie Methionin und Cystein",
+    "Wichtig für die Entgiftung im Körper",
+    "Unterstützt den Stoffwechsel und die Bildung von Kollagen"
+  ],
+  "deficiency_effects": [
+    "Hautprobleme",
+    "Schwäche",
+    "Müdigkeit",
+    "Verzögerte Wundheilung"
+  ],
+  "overconsumption_effects": [
+    "Kopfschmerzen",
+    "Übelkeit",
+    "Geruchsprobleme (z. B. Schwefelgeruch im Körper)"
+  ],
+  "interactions": [
+    "Kann die Aufnahme von Eisen beeinflussen",
+    "Wichtige Rolle bei der Entgiftung von Toxinen im Körper"
+  ],
+  "supplementation": "In der Regel nicht notwendig, da Schwefel in vielen proteinreichen Lebensmitteln enthalten ist.",
+  "food_sources": [
+    "Eier",
+    "Fleisch",
+    "Zwiebeln",
+    "Knoblauch",
+    "Kreuzblütler (z. B. Brokkoli, Rosenkohl)"
+  ]
+}
+{
+  "name": "Eisen",
+  "type": "Mineralstoff",
+  "calories_per_gram": "",
+  "daily_intake": "8-18 mg (je nach Alter und Geschlecht)",
+  "functions": [
+    "Wichtig für den Sauerstofftransport im Blut (Teil des Hämoglobins)",
+    "Unterstützt den Energiestoffwechsel",
+    "Beteiligt an der DNA-Synthese und Zellteilung"
+  ],
+  "deficiency_effects": [
+    "Anämie (Blutarmut)",
+    "Müdigkeit und Schwäche",
+    "Blasse Haut",
+    "Konzentrationsstörungen"
+  ],
+  "overconsumption_effects": [
+    "Übelkeit",
+    "Verstopfung",
+    "Leberprobleme",
+    "Eisenüberladung (Hämochromatose)"
+  ],
+  "interactions": [
+    "Vitamin C fördert die Aufnahme von Eisen",
+    "Kalzium und Phosphor können die Aufnahme von Eisen hemmen"
+  ],
+  "supplementation": "Empfohlen bei Eisenmangel oder bei spezifischen Bedürfnissen (z. B. Schwangerschaft, starke Menstruation)",
+  "food_sources": [
+    "Rotes Fleisch",
+    "Geflügel",
+    "Fisch",
+    "Hülsenfrüchte",
+    "Grünes Blattgemüse",
+    "Vollkornprodukte"
+  ]
+}
+{
+  "name": "Zink",
+  "type": "Mineralstoff",
+  "calories_per_gram": "",
+  "daily_intake": "8-11 mg (je nach Alter und Geschlecht)",
+  "functions": [
+    "Unterstützt das Immunsystem",
+    "Beteiligt an der Zellteilung und -wachstum",
+    "Wichtig für die Hautgesundheit und Wundheilung",
+    "Fördert den Geschmackssinn und den Appetit"
+  ],
+  "deficiency_effects": [
+    "Schwächung des Immunsystems",
+    "Haarausfall",
+    "Verzögerte Wundheilung",
+    "Appetitlosigkeit",
+    "Hautprobleme (z. B. Akne)"
+  ],
+  "overconsumption_effects": [
+    "Übelkeit",
+    "Erbrechen",
+    "Durchfall",
+    "Störungen der Kupferaufnahme"
+  ],
+  "interactions": [
+    "Hohe Mengen an Eisen und Kupfer können die Zinkaufnahme beeinträchtigen",
+    "Zink verbessert die Aufnahme von Vitamin A"
+  ],
+  "supplementation": "Kann sinnvoll sein bei Zinkmangel oder speziellen Bedürfnissen (z. B. Akne, Immunschwäche)",
+  "food_sources": [
+    "Fleisch",
+    "Meeresfrüchte",
+    "Nüsse",
+    "Samen",
+    "Vollkornprodukte",
+    "Hülsenfrüchte"
+  ]
+}
+{
+  "name": "Kupfer",
+  "type": "Mineralstoff",
+  "calories_per_gram": "",
+  "daily_intake": "0,9 mg",
+  "functions": [
+    "Beteiligt an der Bildung von roten Blutkörperchen",
+    "Wichtig für das Immunsystem",
+    "Trägt zur Bildung von Kollagen bei und unterstützt die Hautgesundheit",
+    "Hilft bei der Eisenaufnahme und -nutzung im Körper"
+  ],
+  "deficiency_effects": [
+    "Anämie",
+    "Erhöhte Infektanfälligkeit",
+    "Knochenprobleme",
+    "Haarausfall"
+  ],
+  "overconsumption_effects": [
+    "Übelkeit",
+    "Erbrechen",
+    "Leberprobleme",
+    "Zentralnervöse Störungen"
+  ],
+  "interactions": [
+    "Zink und Eisen können die Kupferaufnahme beeinträchtigen",
+    "Vitamin C kann die Absorption von Kupfer fördern"
+  ],
+  "supplementation": "In der Regel nicht notwendig, da Kupfer in vielen Lebensmitteln enthalten ist. Vorsicht bei zu hohen Dosen.",
+  "food_sources": [
+    "Leber",
+    "Meeresfrüchte",
+    "Nüsse",
+    "Samen",
+    "Vollkornprodukte",
+    "Hülsenfrüchte"
+  ]
+}
+{
+  "name": "Mangan",
+  "type": "Mineralstoff",
+  "calories_per_gram": "",
+  "daily_intake": "1,8-2,3 mg (je nach Alter und Geschlecht)",
+  "functions": [
+    "Beteiligt an der Knochenbildung und -stärkung",
+    "Unterstützt den Energiestoffwechsel",
+    "Hilft bei der Bildung von Bindegewebe und Kollagen",
+    "Wichtig für die Antioxidationsabwehr"
+  ],
+  "deficiency_effects": [
+    "Verzögerte Knochenentwicklung",
+    "Verminderte Wundheilung",
+    "Schwäche",
+    "Veränderungen in der Hautfarbe"
+  ],
+  "overconsumption_effects": [
+    "Neurologische Störungen",
+    "Bewegungsstörungen",
+    "Veränderungen im Nervensystem"
+  ],
+  "interactions": [
+    "Hohe Eisenmengen können die Aufnahme von Mangan beeinträchtigen",
+    "Calcium und Phosphor können die Absorption von Mangan reduzieren"
+  ],
+  "supplementation": "In der Regel nicht notwendig, da Mangan in vielen Lebensmitteln enthalten ist.",
+  "food_sources": [
+    "Vollkornprodukte",
+    "Nüsse",
+    "Samen",
+    "Hülsenfrüchte",
+    "Grünes Blattgemüse",
+    "Ananas"
+  ]
+}
+{
+  "name": "Jod",
+  "type": "Mineralstoff",
+  "calories_per_gram": "",
+  "daily_intake": "150 µg",
+  "functions": [
+    "Wichtig für die Schilddrüsenfunktion",
+    "Beteiligt an der Regulierung des Stoffwechsels",
+    "Unterstützt das Wachstum und die Entwicklung des Körpers",
+    "Hilft bei der Produktion von Schilddrüsenhormonen"
+  ],
+  "deficiency_effects": [
+    "Kropf (Vergrößerung der Schilddrüse)",
+    "Müdigkeit",
+    "Gewichtszunahme",
+    "Wachstumsverzögerung (bei Kindern)"
+  ],
+  "overconsumption_effects": [
+    "Störungen der Schilddrüsenfunktion",
+    "Überschüssiges Jod kann zu einer Über- oder Unterfunktion der Schilddrüse führen"
+  ],
+  "interactions": [
+    "Hohe Mengen an Kalzium und Eisen können die Jodaufnahme beeinträchtigen",
+    "Selen kann die Wirkung von Jod unterstützen"
+  ],
+  "supplementation": "Kann sinnvoll sein, wenn die Ernährung wenig Jod enthält, insbesondere in Gegenden ohne jodiertes Salz.",
+  "food_sources": [
+    "Seefisch",
+    "Meeresfrüchte",
+    "Algen",
+    "Eier",
+    "Milchprodukte",
+    "Jodiertes Salz"
+  ]
+}
+{
+  "name": "Selen",
+  "type": "Mineralstoff",
+  "calories_per_gram": "",
+  "daily_intake": "55 µg",
+  "functions": [
+    "Wichtiger Bestandteil von Antioxidantien (z. B. Glutathionperoxidase)",
+    "Unterstützt das Immunsystem",
+    "Hilft bei der Schilddrüsenfunktion",
+    "Trägt zum Zellschutz und zur DNA-Synthese bei"
+  ],
+  "deficiency_effects": [
+    "Verminderte Immunfunktion",
+    "Muskelschwäche",
+    "Kognitive Störungen",
+    "Höheres Risiko für Herz-Kreislauf-Erkrankungen"
+  ],
+  "overconsumption_effects": [
+    "Übelkeit",
+    "Durchfall",
+    "Haarausfall",
+    "Nervenschäden (bei sehr hoher Zufuhr)"
+  ],
+  "interactions": [
+    "Vitamin E verstärkt die antioxidativen Eigenschaften von Selen",
+    "Hohe Dosen von Vitamin C können die Wirkung von Selen beeinflussen"
+  ],
+  "supplementation": "Kann sinnvoll sein bei Mangel oder speziellen Bedürfnissen (z. B. bei niedrigem Selengehalt im Boden oder bei bestimmten Erkrankungen).",
+  "food_sources": [
+    "Paranüsse",
+    "Meeresfrüchte",
+    "Fleisch",
+    "Vollkornprodukte",
+    "Eier",
+    "Milchprodukte"
+  ]
+}
+{
+  "name": "Fluorid",
+  "type": "Mineralstoff",
+  "calories_per_gram": "",
+  "daily_intake": "3-4 mg (je nach Alter und Geschlecht)",
+  "functions": [
+    "Stärkt den Zahnschmelz und schützt vor Karies",
+    "Beteiligt sich an der Knochenmineralisierung",
+    "Hilft, die Bildung von schädlichen Bakterien im Mund zu verhindern"
+  ],
+  "deficiency_effects": [
+    "Erhöhtes Kariesrisiko",
+    "Schwächung der Zähne und Knochen"
+  ],
+  "overconsumption_effects": [
+    "Fluorose (weiße Flecken auf den Zähnen)",
+    "Knochenschwäche",
+    "Magenbeschwerden"
+  ],
+  "interactions": [
+    "Hohe Mengen an Calcium und Magnesium können die Fluoridaufnahme beeinträchtigen",
+    "Vitamin D kann die Wirkung von Fluorid auf die Knochengesundheit unterstützen"
+  ],
+  "supplementation": "Kann in Regionen mit niedrigem Fluoridgehalt im Trinkwasser sinnvoll sein, vor allem für Kinder.",
+  "food_sources": [
+    "Fluoridiertes Trinkwasser",
+    "Fisch",
+    "Tees",
+    "Fluoridiertes Salz"
+  ]
+}
+{
+  "name": "Chrom",
+  "type": "Mineralstoff",
+  "calories_per_gram": "",
+  "daily_intake": "25-35 µg (je nach Alter und Geschlecht)",
+  "functions": [
+    "Hilft bei der Regulierung des Blutzuckerspiegels",
+    "Unterstützt die Insulinwirkung",
+    "Beteiligt sich am Kohlenhydrat-, Fett- und Eiweißstoffwechsel"
+  ],
+  "deficiency_effects": [
+    "Erhöhte Blutzuckerwerte",
+    "Verminderte Insulinempfindlichkeit",
+    "Gewichtszunahme",
+    "Müdigkeit"
+  ],
+  "overconsumption_effects": [
+    "Leberschäden",
+    "Nierenschäden",
+    "Magen-Darm-Beschwerden"
+  ],
+  "interactions": [
+    "Hohe Dosen von Vitamin C können die Chromaufnahme beeinträchtigen",
+    "Zink kann die Wirkung von Chrom verstärken"
+  ],
+  "supplementation": "Kann sinnvoll sein bei Chrommangel oder zur Unterstützung bei Insulinresistenz.",
+  "food_sources": [
+    "Vollkornprodukte",
+    "Nüsse",
+    "Fleisch",
+    "Fisch",
+    "Hülsenfrüchte",
+    "Brokkoli"
+  ]
+}
+{
+  "name": "Molybdän",
+  "type": "Mineralstoff",
+  "calories_per_gram": "",
+  "daily_intake": "45 µg",
+  "functions": [
+    "Unterstützt die Enzymaktivität, insbesondere bei der Entgiftung",
+    "Hilft beim Abbau von Sulfiten und Purinen",
+    "Beteiligt sich am Stoffwechsel von Aminosäuren und Nukleinsäuren"
+  ],
+  "deficiency_effects": [
+    "Verzögerter Stoffwechsel",
+    "Erhöhtes Risiko für Vergiftungen durch Sulfite",
+    "Verminderte Entgiftungsfähigkeit der Leber"
+  ],
+  "overconsumption_effects": [
+    "Magen-Darm-Beschwerden",
+    "Schwindel",
+    "Kopfschmerzen"
+  ],
+  "interactions": [
+    "Molybdän kann die Wirkung von Kupfer beeinträchtigen, wenn es in sehr hohen Mengen aufgenommen wird"
+  ],
+  "supplementation": "In der Regel nicht notwendig, da Molybdän in vielen Lebensmitteln enthalten ist.",
+  "food_sources": [
+    "Hülsenfrüchte",
+    "Vollkornprodukte",
+    "Nüsse",
+    "Fleisch",
+    "Milchprodukte"
+  ]
+}
+{
+  "name": "Kobalt",
+  "type": "Mineralstoff",
+  "calories_per_gram": "",
+  "daily_intake": "0,0003 mg (sehr geringe Menge)",
+  "functions": [
+    "Wichtig für die Bildung von Vitamin B12",
+    "Unterstützt die Bildung von roten Blutkörperchen",
+    "Trägt zur normalen Funktion des Nervensystems bei"
+  ],
+  "deficiency_effects": [
+    "Anämie",
+    "Müdigkeit",
+    "Neurologische Störungen",
+    "Störungen bei der Blutbildung"
+  ],
+  "overconsumption_effects": [
+    "Vergiftung (sehr selten)",
+    "Magen-Darm-Beschwerden"
+  ],
+  "interactions": [
+    "Kobalt ist Bestandteil von Vitamin B12 und daher mit diesem eng verbunden",
+    "Hohe Mengen an Vitamin C können die Kobaltaufnahme erhöhen"
+  ],
+  "supplementation": "Normalerweise nicht notwendig, da Kobalt in geringen Mengen durch die Ernährung über Vitamin B12 aufgenommen wird.",
+  "food_sources": [
+    "Tierische Produkte (insbesondere Leber)",
+    "Fisch",
+    "Meeresfrüchte",
+    "Eier"
+  ]
+}
+{
+  "name": "Vitamin A",
+  "type": "Vitamine",
+  "calories_per_gram": "",
+  "daily_intake": "700-900 µg (je nach Alter und Geschlecht)",
+  "functions": [
+    "Wichtig für die Gesundheit der Augen und das Sehen bei schwachem Licht",
+    "Trägt zur normalen Funktion des Immunsystems bei",
+    "Unterstützt die Hautgesundheit und die Zellregeneration",
+    "Beteiligt sich an der Fortpflanzung und dem Wachstum"
+  ],
+  "deficiency_effects": [
+    "Sehstörungen (insbesondere Nachtblindheit)",
+    "Vermehrte Infektionen",
+    "Trockene Haut",
+    "Wachstumsverzögerung"
+  ],
+  "overconsumption_effects": [
+    "Vergiftung (Hypervitaminose A)",
+    "Übelkeit",
+    "Kopfschmerzen",
+    "Haarausfall",
+    "Schädigung der Leber"
+  ],
+  "interactions": [
+    "Fettlösliche Vitamine (wie Vitamin D und E) können die Absorption von Vitamin A unterstützen",
+    "Zu viel Vitamin E kann die Wirkung von Vitamin A beeinträchtigen"
+  ],
+  "supplementation": "Kann sinnvoll sein, wenn eine unzureichende Zufuhr oder ein Mangel vorliegt, vor allem in Entwicklungsländern oder bei bestimmten Diäten.",
+  "food_sources": [
+    "Leber",
+    "Karotten",
+    "Süßkartoffeln",
+    "Spinat",
+    "Grünes Blattgemüse",
+    "Eier",
+    "Vollmilch"
+  ]
+}
+{
+  "name": "Vitamin D",
+  "type": "Vitamine",
+  "calories_per_gram": "",
+  "daily_intake": "20 µg (800 IE) für Erwachsene",
+  "functions": [
+    "Fördert die Aufnahme von Kalzium und Phosphor im Darm",
+    "Trägt zur normalen Funktion des Immunsystems bei",
+    "Unterstützt die Knochengesundheit und die Muskelkraft",
+    "Beteiligt sich an der Zellteilung"
+  ],
+  "deficiency_effects": [
+    "Knochenschwäche (Rachitis bei Kindern, Osteoporose bei Erwachsenen)",
+    "Muskelschwäche",
+    "Erhöhtes Risiko für Infektionen",
+    "Erhöhtes Risiko für chronische Erkrankungen wie Herzkrankheiten"
+  ],
+  "overconsumption_effects": [
+    "Hyperkalzämie (zu viel Kalzium im Blut)",
+    "Nierensteine",
+    "Übelkeit und Erbrechen",
+    "Verkalkung von Geweben"
+  ],
+  "interactions": [
+    "Magnesium und Vitamin K2 unterstützen die Wirkung von Vitamin D",
+    "Zu viel Vitamin A kann die Wirkung von Vitamin D beeinträchtigen"
+  ],
+  "supplementation": "Kann sinnvoll sein bei unzureichender Sonneneinstrahlung oder unzureichender Zufuhr über die Ernährung, vor allem in den Wintermonaten oder bei bestimmten Risikogruppen.",
+  "food_sources": [
+    "Fetter Fisch (z. B. Lachs, Makrele)",
+    "Leber",
+    "Eigelb",
+    "Pilze",
+    "Angereicherte Lebensmittel (z. B. angereicherte Milch, Orangensaft)"
+  ]
+}
+{
+  "name": "Vitamin E",
+  "type": "Vitamine",
+  "calories_per_gram": "",
+  "daily_intake": "12-15 mg (je nach Alter und Geschlecht)",
+  "functions": [
+    "Starker Antioxidansschutz für Zellen und Gewebe",
+    "Trägt zur Erhaltung der Hautgesundheit bei",
+    "Unterstützt das Immunsystem",
+    "Schützt vor oxidativem Stress und Entzündungen"
+  ],
+  "deficiency_effects": [
+    "Muskelschwäche",
+    "Neurologische Probleme (z. B. Koordinationsstörungen)",
+    "Veränderte Immunantwort",
+    "Hautprobleme (z. B. trockene Haut)"
+  ],
+  "overconsumption_effects": [
+    "Blutgerinnungsstörungen",
+    "Erhöhtes Risiko für Blutungen",
+    "Magen-Darm-Beschwerden"
+  ],
+  "interactions": [
+    "Vitamin C kann die antioxidative Wirkung von Vitamin E verstärken",
+    "Hohe Dosen von Vitamin E können die Wirkung von Vitamin K beeinträchtigen"
+  ],
+  "supplementation": "Kann sinnvoll sein bei Mangel oder als zusätzliche Unterstützung bei erhöhter oxidativer Belastung (z. B. durch Rauchen oder starke körperliche Belastung).",
+  "food_sources": [
+    "Nüsse (z. B. Mandeln, Haselnüsse)",
+    "Samen",
+    "Pflanzenöle (z. B. Weizenkeimöl, Sonnenblumenöl)",
+    "Grünes Blattgemüse",
+    "Avocado"
+  ]
+}
+{
+  "name": "Vitamin K",
+  "type": "Vitamine",
+  "calories_per_gram": "",
+  "daily_intake": "70-120 µg (je nach Alter und Geschlecht)",
+  "functions": [
+    "Wichtig für die Blutgerinnung",
+    "Trägt zur Erhaltung gesunder Knochen bei",
+    "Beteiligt sich an der Regulation von Kalzium im Körper",
+    "Unterstützt die Wundheilung"
+  ],
+  "deficiency_effects": [
+    "Erhöhtes Risiko für Blutungen",
+    "Schwierigkeiten bei der Blutgerinnung",
+    "Knochenschwäche"
+  ],
+  "overconsumption_effects": [
+    "Selten, da Vitamin K in der Regel gut verträglich ist",
+    "Bei sehr hohen Dosen können Nebenwirkungen wie Anzeichen einer Blutgerinnungsstörung auftreten"
+  ],
+  "interactions": [
+    "Vitamin D und Kalzium arbeiten zusammen mit Vitamin K, um die Knochengesundheit zu unterstützen",
+    "Antikoagulantien (Blutverdünner) können mit Vitamin K in Wechselwirkung treten"
+  ],
+  "supplementation": "Kann sinnvoll sein, wenn eine unzureichende Zufuhr über die Ernährung vorliegt oder bei bestimmten Medikamenten, die die Vitamin-K-Aufnahme beeinträchtigen.",
+  "food_sources": [
+    "Grünes Blattgemüse (z. B. Spinat, Grünkohl)",
+    "Kohl",
+    "Brokkoli",
+    "Fleisch (insbesondere Leber)",
+    "Eier"
+  ]
+}
+{
+  "name": "Vitamin B1",
+  "type": "Vitamine",
+  "calories_per_gram": "",
+  "daily_intake": "1,0-1,2 mg (je nach Alter und Geschlecht)",
+  "functions": [
+    "Wichtig für den Energiestoffwechsel und die Umwandlung von Kohlenhydraten in Energie",
+    "Unterstützt die Funktion des Nervensystems",
+    "Trägt zur normalen Herzfunktion bei",
+    "Fördert die Muskelfunktion"
+  ],
+  "deficiency_effects": [
+    "Beriberi (Nervenschäden, Muskelschwäche)",
+    "Kognitive Beeinträchtigungen",
+    "Herzprobleme",
+    "Appetitlosigkeit"
+  ],
+  "overconsumption_effects": [
+    "In sehr hohen Dosen seltene Nebenwirkungen, wie Nervenschäden"
+  ],
+  "interactions": [
+    "Alkoholmissbrauch kann die Aufnahme und Speicherung von Vitamin B1 beeinträchtigen",
+    "Diuretika können den Vitamin-B1-Spiegel senken"
+  ],
+  "supplementation": "Kann sinnvoll sein bei Mangelerscheinungen oder erhöhtem Bedarf, wie z.B. bei Alkoholismus oder starker körperlicher Belastung.",
+  "food_sources": [
+    "Vollkornprodukte",
+    "Hülsenfrüchte",
+    "Schweinefleisch",
+    "Fisch",
+    "Eier",
+    "Nüsse"
+  ]
+}
+{
+  "name": "Vitamin B2",
+  "type": "Vitamine",
+  "calories_per_gram": "",
+  "daily_intake": "1,1-1,6 mg (je nach Alter und Geschlecht)",
+  "functions": [
+    "Wichtig für den Energiestoffwechsel",
+    "Trägt zur Erhaltung gesunder Haut und Schleimhäute bei",
+    "Unterstützt die normale Funktion des Nervensystems",
+    "Hilft bei der Umwandlung von Nahrung in Energie",
+    "Wichtig für die Bildung roter Blutkörperchen"
+  ],
+  "deficiency_effects": [
+    "Risse an Mundwinkeln (Cheilitis)",
+    "Entzündungen und Schuppenbildung der Haut (Seborrhoische Dermatitis)",
+    "Müdigkeit und Erschöpfung",
+    "Augenbeschwerden (z. B. Entzündungen oder Augenbrennen)"
+  ],
+  "overconsumption_effects": [
+    "Sehr selten, da überschüssiges Vitamin B2 mit dem Urin ausgeschieden wird",
+    "Kann zu gelbem Urin führen, was harmlos ist"
+  ],
+  "interactions": [
+    "Hohe Dosen von Vitamin B2 können die Aufnahme von Vitamin B6 beeinträchtigen",
+    "Alkoholkonsum kann die Aufnahme von Vitamin B2 reduzieren"
+  ],
+  "supplementation": "Kann sinnvoll sein, wenn der Bedarf erhöht ist (z. B. bei hohem körperlichem Stress oder bestimmten Erkrankungen).",
+  "food_sources": [
+    "Milchprodukte",
+    "Eier",
+    "Vollkornprodukte",
+    "Hülsenfrüchte",
+    "Fleisch (insbesondere Leber)",
+    "Grünes Blattgemüse"
+  ]
+}
+{
+  "name": "Vitamin B3",
+  "type": "Vitamine",
+  "calories_per_gram": "",
+  "daily_intake": "14-18 mg (je nach Alter und Geschlecht)",
+  "functions": [
+    "Wichtig für den Energiestoffwechsel",
+    "Trägt zur normalen Funktion des Nervensystems bei",
+    "Unterstützt die Hautgesundheit",
+    "Hilft bei der Umwandlung von Nahrungsmitteln in Energie",
+    "Fördert eine normale Hautstruktur und -funktion"
+  ],
+  "deficiency_effects": [
+    "Pellagra (Symptome wie Dermatitis, Durchfall und Demenz)",
+    "Müdigkeit und Erschöpfung",
+    "Kognitive Beeinträchtigungen",
+    "Hautentzündungen"
+  ],
+  "overconsumption_effects": [
+    "Hautrötung (Flush)",
+    "Leberprobleme bei sehr hohen Dosen",
+    "Magen-Darm-Beschwerden"
+  ],
+  "interactions": [
+    "Alkohol kann die Aufnahme von Vitamin B3 beeinträchtigen",
+    "Bestimmte Medikamente, wie Cholesterinsenker, können den Bedarf an Vitamin B3 erhöhen"
+  ],
+  "supplementation": "Kann sinnvoll sein bei einem Mangel oder bei erhöhtem Bedarf, zum Beispiel bei hoher körperlicher Belastung oder bestimmten Erkrankungen.",
+  "food_sources": [
+    "Fleisch (insbesondere Geflügel, Rind und Fisch)",
+    "Vollkornprodukte",
+    "Hülsenfrüchte",
+    "Erdnüsse",
+    "Pilze",
+    "Angereicherte Getreideprodukte"
+  ]
+}
+{
+  "name": "Vitamin B5",
+  "type": "Vitamine",
+  "calories_per_gram": "",
+  "daily_intake": "5 mg (für Erwachsene)",
+  "functions": [
+    "Beteiligt sich am Energiestoffwechsel",
+    "Unterstützt die Produktion von Hormonen in den Nebennieren",
+    "Hilft bei der Wundheilung",
+    "Fördert die Hautgesundheit",
+    "Wichtig für die Herstellung von Coenzym A, das für zahlreiche biochemische Reaktionen benötigt wird"
+  ],
+  "deficiency_effects": [
+    "Müdigkeit und Erschöpfung",
+    "Hautprobleme (z. B. Hautentzündungen, Akne)",
+    "Kognitive Beeinträchtigungen",
+    "Verdauungsprobleme",
+    "Reizbarkeit"
+  ],
+  "overconsumption_effects": [
+    "Selten, da überschüssiges Vitamin B5 in der Regel mit dem Urin ausgeschieden wird",
+    "Hohe Dosen können Durchfall verursachen"
+  ],
+  "interactions": [
+    "Hohe Dosen von Vitamin B5 können mit Vitamin C in Wechselwirkung treten",
+    "Bestimmte Medikamente, wie Antibiotika, können die Aufnahme von Vitamin B5 beeinträchtigen"
+  ],
+  "supplementation": "Kann sinnvoll sein bei Mangel oder hohem Bedarf, wie bei intensiver körperlicher Belastung oder bestimmten Hauterkrankungen.",
+  "food_sources": [
+    "Fleisch (insbesondere Rind, Hähnchen und Schweinefleisch)",
+    "Vollkornprodukte",
+    "Avocado",
+    "Pilze",
+    "Eier",
+    "Hülsenfrüchte"
+  ]
+}
+{
+  "name": "Vitamin B6",
+  "type": "Vitamine",
+  "calories_per_gram": "",
+  "daily_intake": "1,3-2,0 mg (je nach Alter und Geschlecht)",
+  "functions": [
+    "Beteiligt sich am Proteinstoffwechsel",
+    "Unterstützt das Immunsystem",
+    "Wichtig für die Bildung von roten Blutkörperchen",
+    "Trägt zur normalen Funktion des Nervensystems bei",
+    "Fördert die Synthese von Neurotransmittern (z. B. Serotonin, Dopamin)"
+  ],
+  "deficiency_effects": [
+    "Anämie (Blutarmut)",
+    "Kognitive Störungen (z. B. Depression, Reizbarkeit)",
+    "Hautprobleme (z. B. Dermatitis)",
+    "Schwäche und Müdigkeit"
+  ],
+  "overconsumption_effects": [
+    "Neurologische Probleme (z. B. Nervenschäden bei sehr hohen Dosen)",
+    "Magen-Darm-Beschwerden"
+  ],
+  "interactions": [
+    "Alkohol kann die Aufnahme und den Stoffwechsel von Vitamin B6 beeinträchtigen",
+    "Bestimmte Medikamente (z. B. Antikonvulsiva) können den Vitamin-B6-Spiegel senken"
+  ],
+  "supplementation": "Kann sinnvoll sein bei Mangelerscheinungen oder erhöhtem Bedarf, wie z. B. bei stressbedingten oder kognitiven Problemen.",
+  "food_sources": [
+    "Geflügel (z. B. Hähnchen, Truthahn)",
+    "Fisch (z. B. Lachs, Thunfisch)",
+    "Vollkornprodukte",
+    "Kartoffeln",
+    "Bananen",
+    "Hülsenfrüchte"
+  ]
+}
+{
+  "name": "Vitamin B7",
+  "type": "Vitamine",
+  "calories_per_gram": "",
+  "daily_intake": "30 µg (für Erwachsene)",
+  "functions": [
+    "Beteiligt sich am Kohlenhydrat-, Fett- und Proteinstoffwechsel",
+    "Unterstützt die Hautgesundheit",
+    "Trägt zur Erhaltung normaler Haare und Nägel bei",
+    "Wichtig für die Zellteilung und das Zellwachstum",
+    "Fördert die normale Funktion des Nervensystems"
+  ],
+  "deficiency_effects": [
+    "Hautprobleme (z. B. Hautausschläge, Haarausfall)",
+    "Müdigkeit und Erschöpfung",
+    "Kognitive Beeinträchtigungen",
+    "Muskelschwäche"
+  ],
+  "overconsumption_effects": [
+    "Sehr selten, da überschüssiges Vitamin B7 in der Regel ausgeschieden wird",
+    "Keine bekannten Nebenwirkungen bei hohen Dosen"
+  ],
+  "interactions": [
+    "Bestimmte Medikamente (z. B. Antibiotika) können die Aufnahme von Vitamin B7 beeinträchtigen",
+    "Zuckerreiche Ernährung kann den Bedarf an Vitamin B7 erhöhen"
+  ],
+  "supplementation": "Kann sinnvoll sein bei Mangel oder bei erhöhtem Bedarf, z. B. bei Haarausfall oder Hautproblemen.",
+  "food_sources": [
+    "Eier (insbesondere das Eigelb)",
+    "Nüsse und Samen",
+    "Fisch",
+    "Vollkornprodukte",
+    "Avocado",
+    "Bananen"
+  ]
+}
+{
+  "name": "Vitamin B9",
+  "type": "Vitamine",
+  "calories_per_gram": "",
+  "daily_intake": "400 µg (für Erwachsene)",
+  "functions": [
+    "Wichtig für die Zellteilung und das Wachstum",
+    "Trägt zur normalen Funktion des Immunsystems bei",
+    "Fördert die Bildung roter Blutkörperchen",
+    "Unterstützt die normale psychische Funktion",
+    "Wichtig für die Verhinderung von Neuralrohrdefekten in der Schwangerschaft"
+  ],
+  "deficiency_effects": [
+    "Megaloblastäre Anämie",
+    "Müdigkeit und Erschöpfung",
+    "Schwäche",
+    "Kognitive Beeinträchtigungen",
+    "Erhöhtes Risiko für Geburtsfehler (insbesondere Neuralrohrdefekte)"
+  ],
+  "overconsumption_effects": [
+    "Kann die Diagnose von Vitamin B12-Mangelmaskieren",
+    "Zu hohe Dosen können die Gesundheit des Nervensystems beeinträchtigen"
+  ],
+  "interactions": [
+    "Alkohol kann die Aufnahme von Vitamin B9 beeinträchtigen",
+    "Medikamente, die Folsäure blockieren (z. B. Methotrexat), können den Bedarf erhöhen"
+  ],
+  "supplementation": "Kann sinnvoll sein, insbesondere in der Schwangerschaft oder bei einem nachgewiesenen Mangel.",
+  "food_sources": [
+    "Grünes Blattgemüse (z. B. Spinat, Mangold)",
+    "Hülsenfrüchte",
+    "Vollkornprodukte",
+    "Leber",
+    "Orangensaft",
+    "Avocado"
+  ]
+}
+{
+  "name": "Vitamin B12",
+  "type": "Vitamine",
+  "calories_per_gram": "",
+  "daily_intake": "2,4 µg (für Erwachsene)",
+  "functions": [
+    "Wichtig für die Bildung roter Blutkörperchen",
+    "Trägt zur normalen Funktion des Nervensystems bei",
+    "Beteiligt sich an der DNA-Synthese",
+    "Fördert den Energiestoffwechsel",
+    "Unterstützt die psychische Gesundheit und Konzentration"
+  ],
+  "deficiency_effects": [
+    "Megaloblastäre Anämie",
+    "Neurologische Probleme (z. B. Kribbeln in den Gliedmaßen, Muskelschwäche)",
+    "Kognitive Störungen (z. B. Gedächtnisprobleme, Konzentrationsschwierigkeiten)",
+    "Erschöpfung und Müdigkeit"
+  ],
+  "overconsumption_effects": [
+    "Sehr selten, da überschüssiges Vitamin B12 in der Regel ausgeschieden wird",
+    "Keine bekannten negativen Auswirkungen bei hohen Dosen"
+  ],
+  "interactions": [
+    "Bestimmte Medikamente (z. B. Antazida, Metformin) können die Aufnahme von Vitamin B12 beeinträchtigen",
+    "Alkohol kann die Speicherung von Vitamin B12 in der Leber beeinträchtigen"
+  ],
+  "supplementation": "Kann sinnvoll sein bei einem Mangel oder in risikobehafteten Gruppen, wie z. B. Vegetariern, Veganern oder älteren Menschen.",
+  "food_sources": [
+    "Tierische Produkte (z. B. Fleisch, Fisch, Eier, Milchprodukte)",
+    "Angereicherte pflanzliche Lebensmittel (z. B. pflanzliche Milch, Frühst
+{
+  "name": "Vitamin C",
+  "type": "Vitamine",
+  "calories_per_gram": "",
+  "daily_intake": "75-90 mg (für Erwachsene)",
+  "functions": [
+    "Wichtig für das Immunsystem",
+    "Fördert die Kollagenbildung für gesunde Haut, Zähne und Knochen",
+    "Trägt zum Schutz der Zellen vor oxidativem Stress bei",
+    "Erhöht die Eisenaufnahme aus pflanzlichen Quellen",
+    "Hilft bei der Wundheilung"
+  ],
+  "deficiency_effects": [
+    "Skorbut (Blutungen, Zahnfleischprobleme)",
+    "Schwäche und Müdigkeit",
+    "Verzögerte Wundheilung",
+    "Erhöhtes Infektionsrisiko"
+  ],
+  "overconsumption_effects": [
+    "Magen-Darm-Beschwerden (z. B. Durchfall, Übelkeit)",
+    "Kann die Aufnahme von Eisen aus Nahrung erhöhen und zu einer Eisenüberladung führen"
+  ],
+  "interactions": [
+    "Alkohol und Rauchen können die Vitamin-C-Aufnahme verringern",
+    "Bestimmte Medikamente, wie z. B. Antikoagulantien, können mit Vitamin C interagieren"
+  ],
+  "supplementation": "Kann sinnvoll sein bei erhöhtem Bedarf, wie z. B. während Erkältungen oder bei unzureichender Zufuhr über die Ernährung.",
+  "food_sources": [
+    "Zitrusfrüchte (z. B. Orangen, Zitronen)",
+    "Paprika",
+    "Kiwi",
+    "Erdbeeren",
+    "Brokkoli",
+    "Grünes Blattgemüse"
+  ]
+}
+[
+  {
+    "name": "Cholin",
+    "type": "Nährstoff",
+    "calories_per_gram": "",
+    "daily_intake": "425-550 mg (für Erwachsene)",
+    "functions": [
+      "Wichtig für die Gehirn- und Leberfunktion",
+      "Unterstützt den Fettstoffwechsel",
+      "Trägt zur normalen Funktion der Nervenzellen bei",
+      "Beteiligt sich an der Synthese von Acetylcholin (Neurotransmitter)"
+    ],
+    "deficiency_effects": [
+      "Leberprobleme",
+      "Kognitive Beeinträchtigungen",
+      "Muskelkrämpfe",
+      "Verzögerte Entwicklung bei Kindern"
+    ],
+    "overconsumption_effects": [
+      "Körpergeruch (vor allem Fischgeruch)",
+      "Magen-Darm-Beschwerden"
+    ],
+    "interactions": [
+      "Alkohol kann die Cholinaufnahme verringern",
+      "Bestimmte Medikamente (z. B. Anticholinergika) können mit Cholin interagieren"
+    ],
+    "supplementation": "Kann sinnvoll sein bei Mangel oder erhöhtem Bedarf, z. B. in der Schwangerschaft.",
+    "food_sources": [
+      "Eier",
+      "Leber",
+      "Hühnchen",
+      "Fisch",
+      "Sojabohnen"
+    ]
+  },
+  {
+    "name": "Inositol",
+    "type": "Nährstoff",
+    "calories_per_gram": "",
+    "daily_intake": "500-2000 mg (empfohlene Dosis variiert je nach Bedarf)",
+    "functions": [
+      "Beteiligt sich am Fettstoffwechsel",
+      "Unterstützt die Signalübertragung in den Zellen",
+      "Hilft bei der Regulierung des Blutzuckerspiegels",
+      "Trägt zur Gehirnfunktion und psychischen Gesundheit bei"
+    ],
+    "deficiency_effects": [
+      "Erhöhtes Risiko für Angstzustände und Depressionen",
+      "Fettansammlungen in der Leber",
+      "Kognitive Beeinträchtigungen"
+    ],
+    "overconsumption_effects": [
+      "Magen-Darm-Beschwerden",
+      "Durchfall"
+    ],
+    "interactions": [
+      "Kann mit Medikamenten zur Behandlung von Angstzuständen oder Depressionen interagieren"
+    ],
+    "supplementation": "Kann bei psychischen Gesundheitsproblemen oder hormonellen Ungleichgewichten sinnvoll sein.",
+    "food_sources": [
+      "Vollkornprodukte",
+      "Nüsse",
+      "Hülsenfrüchte",
+      "Zitrusfrüchte",
+      "Melonen"
+    ]
+  },
+  {
+    "name": "L-Carnitin",
+    "type": "Nährstoff",
+    "calories_per_gram": "",
+    "daily_intake": "500-2000 mg (je nach Bedarf)",
+    "functions": [
+      "Hilft beim Transport von Fettsäuren in die Zellen zur Energieproduktion",
+      "Unterstützt die Ausdauerleistung",
+      "Beteiligt sich an der Fettverbrennung",
+      "Fördert die Regeneration nach körperlicher Anstrengung"
+    ],
+    "deficiency_effects": [
+      "Verminderte Ausdauer",
+      "Müdigkeit und Erschöpfung",
+      "Kognitive Störungen"
+    ],
+    "overconsumption_effects": [
+      "Magen-Darm-Beschwerden (z. B. Übelkeit, Durchfall)",
+      "Geruchlicher Körpergeruch"
+    ],
+    "interactions": [
+      "Bestimmte Medikamente, z. B. zur Behandlung von Hypothyreose, können die Wirkung von L-Carnitin beeinflussen"
+    ],
+    "supplementation": "Kann sinnvoll sein bei intensivem Training oder Fettabbau.",
+    "food_sources": [
+      "Fleisch (insbesondere Rindfleisch, Lamm, Schweinefleisch)",
+      "Fisch",
+      "Geflügel",
+      "Milchprodukte"
+    ]
+  },
+  {
+    "name": "Coenzym Q10",
+    "type": "Nährstoff",
+    "calories_per_gram": "",
+    "daily_intake": "30-200 mg (je nach Bedarf)",
+    "functions": [
+      "Beteiligt sich an der Energieproduktion in den Zellen",
+      "Hat antioxidative Eigenschaften",
+      "Fördert die Gesundheit des Herz-Kreislauf-Systems",
+      "Unterstützt die Hautgesundheit"
+    ],
+    "deficiency_effects": [
+      "Müdigkeit",
+      "Muskelkrämpfe",
+      "Herz-Kreislauf-Probleme",
+      "Schwächung des Immunsystems"
+    ],
+    "overconsumption_effects": [
+      "Magen-Darm-Beschwerden",
+      "Kopfschmerzen"
+    ],
+    "interactions": [
+      "Kann mit blutverdünnenden Medikamenten wie Warfarin interagieren"
+    ],
+    "supplementation": "Kann sinnvoll sein bei Herz-Kreislauf-Erkrankungen oder hoher körperlicher Belastung.",
+    "food_sources": [
+      "Fleisch (insbesondere Rindfleisch und Schweinefleisch)",
+      "Fisch",
+      "Nüsse",
+      "Spinat",
+      "Brokkoli"
+    ]
+  },
+  {
+    "name": "Polyphenole",
+    "type": "Antioxidantien",
+    "calories_per_gram": "",
+    "daily_intake": "Keine spezifische tägliche Empfehlung",
+    "functions": [
+      "Schützen vor oxidativem Stress und Zellschäden",
+      "Fördern die Herzgesundheit",
+      "Unterstützen das Immunsystem",
+      "Haben entzündungshemmende Eigenschaften"
+    ],
+    "deficiency_effects": [
+      "Erhöhtes Risiko für chronische Erkrankungen wie Herzkrankheiten und Krebs"
+    ],
+    "overconsumption_effects": [
+      "Keine bekannten negativen Auswirkungen bei moderatem Konsum"
+    ],
+    "interactions": [
+      "Bestimmte Medikamente zur Blutgerinnung können mit Polyphenolen in Wechselwirkung treten"
+    ],
+    "supplementation": "Könnte bei hohem oxidativen Stress oder zur Prävention von chronischen Erkrankungen sinnvoll sein.",
+    "food_sources": [
+      "Beeren (z. B. Blaubeeren, Erdbeeren)",
+      "Dunkle Schokolade",
+      "Grüner Tee",
+      "Rotwein",
+      "Nüsse"
+    ]
+  },
+  {
+    "name": "Lutein und Zeaxanthin",
+    "type": "Antioxidantien",
+    "calories_per_gram": "",
+    "daily_intake": "10 mg Lutein und 2 mg Zeaxanthin (empfohlene Dosis)",
+    "functions": [
+      "Schützen die Augen vor schädlichem Licht",
+      "Fördern die Gesundheit der Augenlinse und Netzhaut",
+      "Verhindern Altersbedingte Makuladegeneration",
+      "Unterstützen die Hautgesundheit"
+    ],
+    "deficiency_effects": [
+      "Erhöhtes Risiko für Augenerkrankungen, insbesondere Makuladegeneration"
+    ],
+    "overconsumption_effects": [
+      "Keine bekannten negativen Auswirkungen bei hohen Dosen"
+    ],
+    "interactions": [
+      "Kann mit Medikamenten zur Behandlung von Augenerkrankungen interagieren"
+    ],
+    "supplementation": "Kann sinnvoll sein, um die Gesundheit der Augen zu unterstützen oder bei der Prävention von Augenerkrankungen.",
+    "food_sources": [
+      "Grünes Blattgemüse (z. B. Spinat, Grünkohl)",
+      "Eier",
+      "Mais",
+      "Paprika",
+      "Kürbis"
+    ]
+  },
+  {
+    "name": "Lycopin",
+    "type": "Antioxidans",
+    "calories_per_gram": "",
+    "daily_intake": "6-15 mg (empfohlene Dosis)",
+    "functions": [
+      "Schützt vor oxidativen Schäden",
+      "Fördert die Herzgesundheit",
+      "Hat entzündungshemmende Eigenschaften",
+      "Kann das Risiko für bestimmte Krebsarten verringern"
+    ],
+    "deficiency_effects": [
+      "Erhöhtes Risiko für Herzkrankheiten und bestimmte Krebsarten"
+    ],
+    "overconsumption_effects": [
+      "Keine bekannten negativen Auswirkungen bei hohen Dosen"
+    ],
+    "interactions": [
+      "Kann die Wirkung bestimmter Medikamente, wie blutverdünnende Medikamente, beeinträchtigen"
+    ],
+    "supplementation": "Kann sinnvoll sein, um die Gesundheit des Herz-Kreislaufsystems zu unterstützen oder als Antioxidans.",
+    "food_sources": [
+      "Tomaten",
+      "Wassermelonen",
+      "Grapefruit",
+      "Paprika",
+      "Rote Beeren"
+    ]
+  }

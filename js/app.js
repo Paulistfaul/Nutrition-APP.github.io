@@ -1,82 +1,46 @@
-// Beispielhafte Nährstoffdaten
-const nutrientsData = [
-  {
-    name: "Vitamin C",
-    type: "Mikronährstoff",
-    description: "Vitamin C ist wichtig für das Immunsystem.",
-    deficiency: "Schwäche, Immunschwäche",
-    excess: "Magenbeschwerden, Übelkeit",
-    interaction: "Fördert die Aufnahme von Eisen.",
-    supplementation: "Kann in speziellen Fällen hilfreich sein.",
-    recommendedDailyAmount: "75-90 mg"
-  },
-  {
-    name: "Eiweiß",
-    type: "Makronährstoff",
-    description: "Eiweiß ist wichtig für den Muskelaufbau.",
-    deficiency: "Muskelschwund, Müdigkeit",
-    excess: "Nierenprobleme, Dehydration",
-    interaction: "Fördert die Aufnahme von Eisen.",
-    supplementation: "Für Sportler empfehlenswert.",
-    recommendedDailyAmount: "2g/kg Körpergewicht",
-    caloriesPerGram: 4
-  }
-];
+document.addEventListener("DOMContentLoaded", function () {
+    fetch("data/nutrients.json")
+        .then(response => response.json())
+        .then(data => {
+            const searchInput = document.getElementById("searchInput");
+            const nutrientList = document.getElementById("nutrientList");
 
-let activeNutrient = null; // Speichert den aktuell geöffneten Nährstoff
+            function renderList(query = "") {
+                nutrientList.innerHTML = "";
+                let filtered = data.filter(nutrient => 
+                    nutrient.name.toLowerCase().includes(query.toLowerCase())
+                );
 
-// Suche nach Nährstoff
-document.getElementById('search').addEventListener('input', function() {
-  const query = this.value.toLowerCase();
-  const results = nutrientsData.filter(nutrient =>
-    nutrient.name.toLowerCase().includes(query)
-  );
+                if (filtered.length === 0) {
+                    nutrientList.innerHTML = "<li>Kein Treffer</li>";
+                    return;
+                }
 
-  displayResults(results);
+                filtered.forEach(nutrient => {
+                    let listItem = document.createElement("li");
+                    listItem.innerHTML = `<strong>${nutrient.name}</strong>`;
+                    listItem.addEventListener("click", function () {
+                        let details = this.querySelector(".details");
+                        if (details) {
+                            details.remove();
+                        } else {
+                            let detailDiv = document.createElement("div");
+                            detailDiv.classList.add("details");
+                            detailDiv.innerHTML = `
+                                <p><strong>Wofür ist es gut?</strong> ${nutrient.benefits}</p>
+                                <p><strong>Mangelerscheinungen:</strong> ${nutrient.deficiency}</p>
+                                <p><strong>Überdosierung:</strong> ${nutrient.overdose}</p>
+                                <p><strong>Interaktionen:</strong> ${nutrient.interactions}</p>
+                                <p><strong>Supplementation:</strong> ${nutrient.supplementation}</p>
+                            `;
+                            this.appendChild(detailDiv);
+                        }
+                    });
+                    nutrientList.appendChild(listItem);
+                });
+            }
+
+            searchInput.addEventListener("input", () => renderList(searchInput.value));
+            renderList();
+        });
 });
-
-// Ergebnisse anzeigen
-function displayResults(results) {
-  const resultsDiv = document.getElementById('results');
-  resultsDiv.innerHTML = "";
-
-  if (results.length === 0) {
-    resultsDiv.innerHTML = "<p>Kein Nährstoff gefunden.</p>";
-    return;
-  }
-
-  results.forEach(nutrient => {
-    const nutrientDiv = document.createElement('div');
-    nutrientDiv.classList.add('nutrient-item');
-    nutrientDiv.innerHTML = `<h2>${nutrient.name}</h2>`;
-    nutrientDiv.addEventListener('click', function() {
-      toggleNutrientDetails(nutrient);
-    });
-    resultsDiv.appendChild(nutrientDiv);
-  });
-}
-
-// Details eines Nährstoffs ein- oder ausblenden
-function toggleNutrientDetails(nutrient) {
-  const detailsDiv = document.getElementById('details');
-
-  if (activeNutrient === nutrient.name) {
-    // Falls derselbe Nährstoff angeklickt wird, schließen
-    detailsDiv.style.display = "none";
-    activeNutrient = null;
-  } else {
-    // Falls ein anderer Nährstoff angeklickt wird, öffnen
-    activeNutrient = nutrient.name;
-    detailsDiv.style.display = "block";
-    detailsDiv.innerHTML = `
-      <h2>${nutrient.name}</h2>
-      <p><strong>Typ:</strong> ${nutrient.type}</p>
-      <p><strong>Beschreibung:</strong> ${nutrient.description}</p>
-      <p><strong>Empfohlene tägliche Menge:</strong> ${nutrient.recommendedDailyAmount}</p>
-      <p><strong>Was passiert bei Mangel:</strong> ${nutrient.deficiency}</p>
-      <p><strong>Was passiert bei Übermaß:</strong> ${nutrient.excess}</p>
-      <p><strong>Interaktionen:</strong> ${nutrient.interaction}</p>
-      <p><strong>Ergänzungen:</strong> ${nutrient.supplementation}</p>
-    `;
-  }
-}

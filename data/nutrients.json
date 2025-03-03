@@ -14,9 +14,8 @@
         "overdose": "Nierensteine, Verdauungsprobleme",
         "interactions": "Beeinflusst Magnesium- und Zinkaufnahme",
         "supplementation": "Bei Kalziummangel empfohlen"
-    }
-]
-{
+    },
+    {
   "name": "Magnesium",
   "type": "Mineralstoff",
   "calories_per_gram": "",
@@ -46,9 +45,8 @@
     "Vollkornprodukte",
     "Dunkle Schokolade",
     "Spinat"
-  ]
-}
-{
+    },
+    {
   "name": "Natrium",
   "type": "Mineralstoff",
   "calories_per_gram": "",
@@ -79,9 +77,8 @@
     "Wurstwaren",
     "Käse",
     "Suppen"
-  ]
-}
-{
+    },
+    {
   "name": "Phosphor",
   "type": "Mineralstoff",
   "calories_per_gram": "",
@@ -111,9 +108,8 @@
     "Milchprodukte",
     "Nüsse",
     "Vollkornprodukte"
-  ]
-}
-{
+    },
+    {
   "name": "Chlorid",
   "type": "Mineralstoff",
   "calories_per_gram": "",
@@ -145,9 +141,8 @@
     "Wurstwaren",
     "Käse",
     "Tomaten"
-  ]
-}
-{
+    },
+    {
   "name": "Schwefel",
   "type": "Mineralstoff",
   "calories_per_gram": "",
@@ -179,9 +174,8 @@
     "Zwiebeln",
     "Knoblauch",
     "Kreuzblütler (z. B. Brokkoli, Rosenkohl)"
-  ]
-}
-{
+    },
+    {
   "name": "Eisen",
   "type": "Mineralstoff",
   "calories_per_gram": "",
@@ -215,9 +209,8 @@
     "Hülsenfrüchte",
     "Grünes Blattgemüse",
     "Vollkornprodukte"
-  ]
-}
-{
+    },
+    {
   "name": "Zink",
   "type": "Mineralstoff",
   "calories_per_gram": "",
@@ -253,9 +246,8 @@
     "Samen",
     "Vollkornprodukte",
     "Hülsenfrüchte"
-  ]
-}
-{
+    },
+    {
   "name": "Kupfer",
   "type": "Mineralstoff",
   "calories_per_gram": "",
@@ -290,9 +282,8 @@
     "Samen",
     "Vollkornprodukte",
     "Hülsenfrüchte"
-  ]
-}
-{
+    },
+    {
   "name": "Mangan",
   "type": "Mineralstoff",
   "calories_per_gram": "",
@@ -326,9 +317,8 @@
     "Hülsenfrüchte",
     "Grünes Blattgemüse",
     "Ananas"
-  ]
-}
-{
+    },
+    {
   "name": "Jod",
   "type": "Mineralstoff",
   "calories_per_gram": "",
@@ -361,9 +351,8 @@
     "Eier",
     "Milchprodukte",
     "Jodiertes Salz"
-  ]
-}
-{
+    },
+    {
   "name": "Selen",
   "type": "Mineralstoff",
   "calories_per_gram": "",
@@ -398,9 +387,8 @@
     "Vollkornprodukte",
     "Eier",
     "Milchprodukte"
-  ]
-}
-{
+    },
+    {
   "name": "Fluorid",
   "type": "Mineralstoff",
   "calories_per_gram": "",
@@ -429,9 +417,8 @@
     "Fisch",
     "Tees",
     "Fluoridiertes Salz"
-  ]
-}
-{
+    },
+    {
   "name": "Chrom",
   "type": "Mineralstoff",
   "calories_per_gram": "",
@@ -464,9 +451,8 @@
     "Fisch",
     "Hülsenfrüchte",
     "Brokkoli"
-  ]
-}
-{
+    },
+    {
   "name": "Molybdän",
   "type": "Mineralstoff",
   "calories_per_gram": "",
@@ -496,9 +482,8 @@
     "Nüsse",
     "Fleisch",
     "Milchprodukte"
-  ]
-}
-{
+    },
+    {
   "name": "Kobalt",
   "type": "Mineralstoff",
   "calories_per_gram": "",
@@ -528,10 +513,9 @@
     "Fisch",
     "Meeresfrüchte",
     "Eier"
-  ]
-}
-{
-  "name": "Vitamin A",
+    },
+    {
+  "name": "Vitamin A (Retinol, Beta-Carotin",
   "type": "Vitamine",
   "calories_per_gram": "",
   "daily_intake": "700-900 µg (je nach Alter und Geschlecht)",
@@ -567,10 +551,9 @@
     "Grünes Blattgemüse",
     "Eier",
     "Vollmilch"
-  ]
-}
-{
-  "name": "Vitamin D",
+    },
+    {
+  "name": "Vitamin D (Cholecalciferol, Ergocalciferol)",
   "type": "Vitamine",
   "calories_per_gram": "",
   "daily_intake": "20 µg (800 IE) für Erwachsene",
@@ -603,10 +586,9 @@
     "Eigelb",
     "Pilze",
     "Angereicherte Lebensmittel (z. B. angereicherte Milch, Orangensaft)"
-  ]
-}
-{
-  "name": "Vitamin E",
+    },
+    {
+  "name": "Vitamin E (Tocopherole, Tocotrienole)",
   "type": "Vitamine",
   "calories_per_gram": "",
   "daily_intake": "12-15 mg (je nach Alter und Geschlecht)",
@@ -638,10 +620,9 @@
     "Pflanzenöle (z. B. Weizenkeimöl, Sonnenblumenöl)",
     "Grünes Blattgemüse",
     "Avocado"
-  ]
-}
-{
-  "name": "Vitamin K",
+    },
+    {
+  "name": "Vitamin K (Phyllochinon, K2: Menachinon)",
   "type": "Vitamine",
   "calories_per_gram": "",
   "daily_intake": "70-120 µg (je nach Alter und Geschlecht)",
@@ -671,10 +652,9 @@
     "Brokkoli",
     "Fleisch (insbesondere Leber)",
     "Eier"
-  ]
-}
-{
-  "name": "Vitamin B1",
+    },
+    {
+  "name": "Vitamin B1 (Thiamin)",
   "type": "Vitamine",
   "calories_per_gram": "",
   "daily_intake": "1,0-1,2 mg (je nach Alter und Geschlecht)",
@@ -705,10 +685,9 @@
     "Fisch",
     "Eier",
     "Nüsse"
-  ]
-}
-{
-  "name": "Vitamin B2",
+    },
+    {
+  "name": "Vitamin B2 (Riboflavin)",
   "type": "Vitamine",
   "calories_per_gram": "",
   "daily_intake": "1,1-1,6 mg (je nach Alter und Geschlecht)",
@@ -741,10 +720,9 @@
     "Hülsenfrüchte",
     "Fleisch (insbesondere Leber)",
     "Grünes Blattgemüse"
-  ]
-}
-{
-  "name": "Vitamin B3",
+    },
+    {
+  "name": "Vitamin B3 (Niacin, Nicotinsäure, Nicotinamid)",
   "type": "Vitamine",
   "calories_per_gram": "",
   "daily_intake": "14-18 mg (je nach Alter und Geschlecht)",
@@ -778,10 +756,9 @@
     "Erdnüsse",
     "Pilze",
     "Angereicherte Getreideprodukte"
-  ]
-}
-{
-  "name": "Vitamin B5",
+    },
+    {
+  "name": "Vitamin B5 (Pantothensäure)",
   "type": "Vitamine",
   "calories_per_gram": "",
   "daily_intake": "5 mg (für Erwachsene)",
@@ -815,10 +792,9 @@
     "Pilze",
     "Eier",
     "Hülsenfrüchte"
-  ]
-}
-{
-  "name": "Vitamin B6",
+    },
+    {
+  "name": "Vitamin B6 (Pyridoxin, Pyridoxamin, Pyridoxal)",
   "type": "Vitamine",
   "calories_per_gram": "",
   "daily_intake": "1,3-2,0 mg (je nach Alter und Geschlecht)",
@@ -851,10 +827,9 @@
     "Kartoffeln",
     "Bananen",
     "Hülsenfrüchte"
-  ]
-}
-{
-  "name": "Vitamin B7",
+    },
+    {
+  "name": "Vitamin B7 (Biotin, Vitamin H)",
   "type": "Vitamine",
   "calories_per_gram": "",
   "daily_intake": "30 µg (für Erwachsene)",
@@ -887,10 +862,9 @@
     "Vollkornprodukte",
     "Avocado",
     "Bananen"
-  ]
-}
-{
-  "name": "Vitamin B9",
+    },
+    {
+  "name": "Vitamin B9 (Folsäure, Folat)",
   "type": "Vitamine",
   "calories_per_gram": "",
   "daily_intake": "400 µg (für Erwachsene)",
@@ -924,10 +898,9 @@
     "Leber",
     "Orangensaft",
     "Avocado"
-  ]
-}
-{
-  "name": "Vitamin B12",
+    },
+    {
+  "name": "Vitamin B12 (Cobalamin)",
   "type": "Vitamine",
   "calories_per_gram": "",
   "daily_intake": "2,4 µg (für Erwachsene)",
@@ -955,9 +928,10 @@
   "supplementation": "Kann sinnvoll sein bei einem Mangel oder in risikobehafteten Gruppen, wie z. B. Vegetariern, Veganern oder älteren Menschen.",
   "food_sources": [
     "Tierische Produkte (z. B. Fleisch, Fisch, Eier, Milchprodukte)",
-    "Angereicherte pflanzliche Lebensmittel (z. B. pflanzliche Milch, Frühst
-{
-  "name": "Vitamin C",
+    "Angereicherte pflanzliche Lebensmittel (z. B. pflanzliche Milch, Frühst"
+    },
+    {
+  "name": "Vitamin C (Ascorbinsäure)",
   "type": "Vitamine",
   "calories_per_gram": "",
   "daily_intake": "75-90 mg (für Erwachsene)",
@@ -990,10 +964,8 @@
     "Erdbeeren",
     "Brokkoli",
     "Grünes Blattgemüse"
-  ]
-}
-[
-  {
+      },
+    {
     "name": "Cholin",
     "type": "Nährstoff",
     "calories_per_gram": "",
@@ -1025,9 +997,8 @@
       "Hühnchen",
       "Fisch",
       "Sojabohnen"
-    ]
-  },
-  {
+        },
+    {
     "name": "Inositol",
     "type": "Nährstoff",
     "calories_per_gram": "",
@@ -1057,9 +1028,8 @@
       "Hülsenfrüchte",
       "Zitrusfrüchte",
       "Melonen"
-    ]
-  },
-  {
+        },
+    {
     "name": "L-Carnitin",
     "type": "Nährstoff",
     "calories_per_gram": "",
@@ -1088,9 +1058,8 @@
       "Fisch",
       "Geflügel",
       "Milchprodukte"
-    ]
-  },
-  {
+        },
+    {
     "name": "Coenzym Q10",
     "type": "Nährstoff",
     "calories_per_gram": "",
@@ -1121,9 +1090,8 @@
       "Nüsse",
       "Spinat",
       "Brokkoli"
-    ]
-  },
-  {
+        },
+    {
     "name": "Polyphenole",
     "type": "Antioxidantien",
     "calories_per_gram": "",
@@ -1150,9 +1118,8 @@
       "Grüner Tee",
       "Rotwein",
       "Nüsse"
-    ]
-  },
-  {
+        },
+    {
     "name": "Lutein und Zeaxanthin",
     "type": "Antioxidantien",
     "calories_per_gram": "",
@@ -1179,9 +1146,8 @@
       "Mais",
       "Paprika",
       "Kürbis"
-    ]
-  },
-  {
+        },
+    {
     "name": "Lycopin",
     "type": "Antioxidans",
     "calories_per_gram": "",

@@ -1,18 +1,18 @@
 [
     {
         "name": "Vitamin C",
-        "benefits": "Wichtig für das Immunsystem, Haut und Wundheilung.",
-        "deficiency": "Skorbut, Müdigkeit, schlechte Wundheilung.",
-        "overdose": "Magenprobleme, Durchfall.",
-        "interactions": "Erhöht Eisenaufnahme, beeinflusst Vitamin E.",
-        "supplementation": "Nur bei Mangel sinnvoll."
+        "benefits": "Wichtig für das Immunsystem, Haut und Wundheilung",
+        "deficiency": "Skorbut, Müdigkeit, schlechte Wundheilung",
+        "overdose": "Magenprobleme, Durchfall",
+        "interactions": "Erhöht Eisenaufnahme, beeinflusst Vitamin E",
+        "supplementation": "Nur bei Mangel sinnvoll"
     },
     {
         "name": "Kalzium",
-        "benefits": "Gut für Knochen und Zähne.",
-        "deficiency": "Knochenschwäche, Muskelkrämpfe.",
-        "overdose": "Nierensteine, Verdauungsprobleme.",
-        "interactions": "Beeinflusst Magnesium- und Zinkaufnahme.",
-        "supplementation": "Bei Kalziummangel empfohlen."
+        "benefits": "Gut für Knochen und Zähne",
+        "deficiency": "Knochenschwäche, Muskelkrämpfe",
+        "overdose": "Nierensteine, Verdauungsprobleme",
+        "interactions": "Beeinflusst Magnesium- und Zinkaufnahme",
+        "supplementation": "Bei Kalziummangel empfohlen"
     }
 ]

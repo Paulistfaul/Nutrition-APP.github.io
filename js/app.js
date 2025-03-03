@@ -23,6 +23,8 @@ const nutrientsData = [
   }
 ];
 
+let activeNutrient = null; // Speichert den aktuell geöffneten Nährstoff
+
 // Suche nach Nährstoff
 document.getElementById('search').addEventListener('input', function() {
   const query = this.value.toLowerCase();
@@ -48,24 +50,33 @@ function displayResults(results) {
     nutrientDiv.classList.add('nutrient-item');
     nutrientDiv.innerHTML = `<h2>${nutrient.name}</h2>`;
     nutrientDiv.addEventListener('click', function() {
-      displayNutrientDetails(nutrient);
+      toggleNutrientDetails(nutrient);
     });
     resultsDiv.appendChild(nutrientDiv);
   });
 }
 
-// Details eines Nährstoffs anzeigen
-function displayNutrientDetails(nutrient) {
+// Details eines Nährstoffs ein- oder ausblenden
+function toggleNutrientDetails(nutrient) {
   const detailsDiv = document.getElementById('details');
-  detailsDiv.style.display = "block";
-  detailsDiv.innerHTML = `
-    <h2>${nutrient.name}</h2>
-    <p><strong>Typ:</strong> ${nutrient.type}</p>
-    <p><strong>Beschreibung:</strong> ${nutrient.description}</p>
-    <p><strong>Empfohlene tägliche Menge:</strong> ${nutrient.recommendedDailyAmount}</p>
-    <p><strong>Was passiert bei Mangel:</strong> ${nutrient.deficiency}</p>
-    <p><strong>Was passiert bei Übermaß:</strong> ${nutrient.excess}</p>
-    <p><strong>Interaktionen:</strong> ${nutrient.interaction}</p>
-    <p><strong>Ergänzungen:</strong> ${nutrient.supplementation}</p>
-  `;
+
+  if (activeNutrient === nutrient.name) {
+    // Falls derselbe Nährstoff angeklickt wird, schließen
+    detailsDiv.style.display = "none";
+    activeNutrient = null;
+  } else {
+    // Falls ein anderer Nährstoff angeklickt wird, öffnen
+    activeNutrient = nutrient.name;
+    detailsDiv.style.display = "block";
+    detailsDiv.innerHTML = `
+      <h2>${nutrient.name}</h2>
+      <p><strong>Typ:</strong> ${nutrient.type}</p>
+      <p><strong>Beschreibung:</strong> ${nutrient.description}</p>
+      <p><strong>Empfohlene tägliche Menge:</strong> ${nutrient.recommendedDailyAmount}</p>
+      <p><strong>Was passiert bei Mangel:</strong> ${nutrient.deficiency}</p>
+      <p><strong>Was passiert bei Übermaß:</strong> ${nutrient.excess}</p>
+      <p><strong>Interaktionen:</strong> ${nutrient.interaction}</p>
+      <p><strong>Ergänzungen:</strong> ${nutrient.supplementation}</p>
+    `;
+  }
 }

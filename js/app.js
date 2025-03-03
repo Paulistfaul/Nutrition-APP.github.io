@@ -19,24 +19,33 @@ document.addEventListener("DOMContentLoaded", function () {
                 filtered.forEach(nutrient => {
                     let listItem = document.createElement("li");
                     listItem.innerHTML = `<strong>${nutrient.name}</strong>`;
+
+                    let detailDiv = document.createElement("div");
+                    detailDiv.classList.add("details");
+                    detailDiv.innerHTML = `
+                        <p><strong>Wofür ist es gut?</strong> ${nutrient.benefits}</p>
+                        <p><strong>Mangelerscheinungen:</strong> ${nutrient.deficiency}</p>
+                        <p><strong>Überdosierung:</strong> ${nutrient.overdose}</p>
+                        <p><strong>Interaktionen:</strong> ${nutrient.interactions}</p>
+                        <p><strong>Supplementation:</strong> ${nutrient.supplementation}</p>
+                    `;
+                    listItem.appendChild(detailDiv);
+
+                    // Klappfunktion
                     listItem.addEventListener("click", function () {
-                        let details = this.querySelector(".details");
-                        if (details) {
-                            details.remove();
+                        if (detailDiv.style.display === "block") {
+                            detailDiv.style.display = "none";
                         } else {
-                            let detailDiv = document.createElement("div");
-                            detailDiv.classList.add("details");
-                            detailDiv.innerHTML = `
-                                <p><strong>Wofür ist es gut?</strong> ${nutrient.benefits}</p>
-                                <p><strong>Mangelerscheinungen:</strong> ${nutrient.deficiency}</p>
-                                <p><strong>Überdosierung:</strong> ${nutrient.overdose}</p>
-                                <p><strong>Interaktionen:</strong> ${nutrient.interactions}</p>
-                                <p><strong>Supplementation:</strong> ${nutrient.supplementation}</p>
-                            `;
-                            this.appendChild(detailDiv);
+                            detailDiv.style.display = "block";
                         }
                     });
+
                     nutrientList.appendChild(listItem);
+
+                    // Automatisches Aufklappen, wenn exakter Name eingegeben wurde
+                    if (query.toLowerCase() === nutrient.name.toLowerCase()) {
+                        detailDiv.style.display = "block";
+                    }
                 });
             }
 
